@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+  min-height: 100vh;
+  background-color: rgb(25, 25, 92);
+  padding-top: 20px;
+  box-shadow: 0 0.125rem 0.25rem solid black;
+}
+
+.sidebar .nav-link {
+  color: rgb(64, 64, 249);
+  padding: 12px 20px;
+  border-left: 12px solid transparent;
+  font-size: 1.1em;
+}
+
+.sidebar .nav-link.active {
+  color: black;
+  border-left-color: #023c79;
+  background-color: aqua;
+  font-weight: bold;
+}
+
+.main-content {
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-box h1 {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.welcome-box p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
